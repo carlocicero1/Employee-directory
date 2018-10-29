@@ -1,0 +1,22 @@
+{
+  "name": "employee-directory",
+  "version": "1.0.0",
+  "description": "Employee-directory",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlocicero1/Employee-directory.git"
+  },
+  "author": "Carlo Cicero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlocicero1/Employee-directory/issues"
+  },
+  "homepage": "https://github.com/carlocicero1/Employee-directory#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
