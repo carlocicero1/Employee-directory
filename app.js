@@ -5,7 +5,6 @@ function appendEmployee (employee) {
 	$('#gallery').append(employee)
 }
 
-// Dynamically creates each generated employee along with information for profile
 function createEmployees () {
 	$.ajax({
 		url: 'https://randomuser.me/api/?results=12',
@@ -38,7 +37,6 @@ function createEmployees () {
 	})
 }
 
-	// React to click event on selected profile and run modal function
 function events () {
 	$('.card').on('click', (e) => {
 		const $target = $(e.currentTarget)
@@ -50,7 +48,6 @@ function events () {
 
 }
 
-	// Generate info for modal based on selected person object
 function loadModal (person) {
 	
 		$('.modal-container').show();
